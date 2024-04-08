@@ -1,7 +1,7 @@
 <?php
 	
 	//Must be same with server
-	$host = "192.168.99.1";
+	$host = "127.0.0.1";
 	$port = 3000;
 
 	// No Timeout 
