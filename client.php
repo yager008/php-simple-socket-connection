@@ -11,7 +11,7 @@
 	$sock = socket_create(AF_INET, SOCK_STREAM, 0) or die("Could not create socket\n");
 
 	//Connect to the server
-	$result = socket_connect($sock, $host, $port) or die("Could not connect toserver\n");
+	$result = socket_connect($sock, $host, $port) or die("Could not connect to server\n");
 
 	$message = 'What should I do?';
 	//Write to server socket
